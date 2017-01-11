@@ -1,0 +1,10 @@
+
+	<span>My Heroes</span>
+	<br/>
+	<ul class="list">
+		<li *ngFor="let hero of heroes" (click)="goToDetail(hero)">
+			<div class="hero-id">{{hero.id}} </div>
+			<div class="hero-name">{{hero.name}}</div>
+		</li>
+	</ul>
+	<br/>

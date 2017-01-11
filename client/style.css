@@ -1,0 +1,102 @@
+@media only screen {
+    .mdl-layout__header {
+        display: flex
+    }
+}
+
+.mdl-tabs__tab-bar {
+    justify-content: flex-start;
+    min-height: 10px
+}
+
+.panel {
+    width: 100%;
+    border: 1px solid #F48FB1;
+    margin: 0px 50px 0px 50px
+}
+.panel-head {
+    border-bottom: 1px solid #F48FB1;
+    background-color: #F8BBD0;
+    color: #880E4F;
+    margin: 0px
+}
+
+.panel-body {       
+}
+
+.tabs {
+    background-color: grey;
+    margin: 2px
+}
+
+.inputBox {
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.inputBox:focus {
+    outline: none;    
+    border-bottom: 3px solid #546E7A
+}
+
+.left {
+    margin: 50px;
+}
+
+.grid {
+    width: 100%
+}
+
+.list {
+    width: 100%;
+    list-style-type: none    
+}
+
+.cards {
+    cursor: auto;
+    display: inline-flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: #546E7A;
+    color: #FF80AB;
+    font-weight: 400;
+    min-height:100px;
+}
+
+.search-result {
+    width: 150px;
+    margin: 5px;
+    /**/
+}
+
+.searched-hero {
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    background-color: #546E7A;
+    color: #FF80AB;
+    border-bottom: 2px solid #37474F
+}
+
+.hero-id {
+    display:inline-block;
+    width: 25px;
+    height:20px;
+    background-color: #546E7A;
+    color: white;
+    padding: 5px;
+    margin-bottom:5px
+}
+
+.hero-name {
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    background-color: #FF80AB;
+    color: #546E7A;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: auto
+}

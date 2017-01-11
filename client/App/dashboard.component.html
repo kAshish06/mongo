@@ -1,0 +1,13 @@
+<div class="panel">
+	<div class="panel-head">
+		<span>Top 4 Heroes</span>
+	</div>
+	<div class="grid mdl-grid panel-body">
+		<ul class="list">
+			<li class="mdl-cell cards mdl-card mdl-shadow--2dp" *ngFor="let hero of heroes" (click)="goToDetail(hero)">
+				{{hero.name}}
+			</li>
+		</ul>
+	</div>
+</div>
+<hero-search></hero-search>

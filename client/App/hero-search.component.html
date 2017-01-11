@@ -1,0 +1,9 @@
+<div id="hero-search" class="left">
+    <h4>Hero Search</h4>
+    <div class="mdl-textfield mdl-js-textfield">
+        <input #searchBox class="mdl-textfield__input inputBox" id="search-box" type="text" placeholder="Search hero.." (keyup)="search(searchBox.value)" />
+    </div>
+    <div class="search-result">
+        <div class="searched-hero mdl-shadow--2dp" *ngFor="let hero of heroes | async" (click)="gotoDetail(hero)">{{hero.name}}</div>
+    </div>
+</div>
